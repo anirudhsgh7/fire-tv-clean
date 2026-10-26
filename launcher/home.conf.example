@@ -1,0 +1,20 @@
+# Blackbox home.conf
+# Push to: /sdcard/Download/blackbox-home.conf
+# Then use Settings > Reload config from Download in Blackbox.
+# The app copies it into its own folder and reloads it.
+#
+# columns: 4, 5, or 6
+# clock24: 1 = 24-hour, 0 = 12-hour
+# show_date: 1 or 0
+# animations: 1 or 0
+# hidden: comma-separated package names, no spaces
+# order: comma-separated package names, first is leftmost
+
+columns=5
+clock24=1
+show_date=1
+animations=1
+
+hidden=com.amazon.ftv.screensaver,com.amazon.bueller.photos,com.amazon.bueller.music,com.amazon.bueller.notification,com.amazon.tahoe,com.amazon.minitv.android.app,com.amazon.gamehub,com.amazon.shoptv.firetv.client,com.amazon.shoptv.client,com.amazon.alexashopping,com.amazon.imdb.tv.android.app,com.imdb.livingroom.firetv,com.amazon.tv.easyupgrade,com.amazon.hedwig,com.amazon.ftv.profilepicker,com.amazon.cloud9,com.amazon.ssm,com.amazon.avod,com.android.providers.downloads.ui,com.aajtak.firetv,com.abp.firetv,com.july.ndtv,com.mxtech.videoplayer.television,tv.airtel.xstream.tvapp,com.jio.media.stb.ondemand
+
+order=com.amazon.firetv.youtube,com.netflix.ninja,in.startv.hotstar,com.onemainstream.sonyliv.android,com.amazon.firebat,com.amazon.venezia
