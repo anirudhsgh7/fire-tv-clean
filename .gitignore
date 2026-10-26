@@ -1,0 +1,6 @@
+build/
+report/
+*.keystore
+*.jks
+.DS_Store
+local.properties
